@@ -24,3 +24,5 @@ you deploy to cloudfoundry.
 Additional references can be found at:
 
 http://blog.cloudfoundry.com/2012/05/09/running-workers-on-cloud-foundry-with-spring/
+
+http://mojo.codehaus.org/appassembler/appassembler-maven-plugin/
