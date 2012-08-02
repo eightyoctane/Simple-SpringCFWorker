@@ -17,3 +17,10 @@ in the pom.xml file. The appassembler replaces the need for Tomcat.
 
 With no web interface, we have a true background worker, but no way to review it's status except via the
 cloudfoundry log files (in this case we print the output of the unix shell command "ps -ef" to the stdout log.
+
+There is nothing to keep this app running once it invokes the unix command a single time, so expect that when
+you deploy to cloudfoundry.
+
+Additional references can be found at:
+
+http://blog.cloudfoundry.com/2012/05/09/running-workers-on-cloud-foundry-with-spring/
